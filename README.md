@@ -12,12 +12,13 @@ This project converts high-contrast road sign images into DXF vector files using
 - Uses OpenCV for image processing and contour detection
 - Outputs DXF files using `ezdxf`
 - Supports batch image processing
+- Supports optional fine tuning the polylines in case of noisy output
 
 ---
 
 ## Input
 
-- High-contrast PNG or JPG images of sign faces
+- High-contrast PNG or JPG images of sign faces from a simple screenshot
 
 ---
 
